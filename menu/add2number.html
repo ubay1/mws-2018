@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>	Kalkulator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#FEFEFE">
+	<title>MWS 2018</title>
+
+	<link rel="manifest" href="../manifest.json">
+
+	<link rel="icon" type="iamge/icon" href="../assets/fav.png">
+	<link rel="stylesheet" type="text/css" href="../assets/style_addnumber.css">
+</head>
+<body>
+
+
+
+<main>
+	<div class="header"><a href="../index.html" id="back">< home</a> <div id="judul-page">Kalkulator</div></div>
+
+	<div id="center">
+
+		<div id="bg-form">
+			<h2>Add 2 Number</h2>
+			<input class="inputtxt" type="text" size="10" name="nilai1" placeholder="0"> <br> <br>
+			<select name="opr" class="inputtxt2" id="operator">
+				<option value="jumlah">+</option>
+				<option value="kurang">-</option>
+				<option value="kali">*</option>
+				<option value="bagi">/</option>
+			</select> <br> <br>
+			<input class="inputtxt" type="text" size="10" name="nilai2" placeholder="0"> <br><br>
+			<button class="inputtxt3" type="button" name="hasil" id="btnhitung"> = </button><br><br>
+			<input class="inputtxt" type="text" size="10" name="nilai2" id="nilaihasil" disabled> <br><br>
+		</div>
+
+		<script type="text/javascript" src="add2number.js"></script>
+
+		<!-- <script type="text/javascript">
+			$(document).ready(function() {
+				$("#backmenu").click(function(){
+					$('#ambil-menu-ajax').load('menu/menuall.html');
+				});
+			});
+		</script> -->
+	</div>
+</main>
+
+</body>
+</html>

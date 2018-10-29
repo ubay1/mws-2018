@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Fetch Json</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FEFEFE">
+    <title>MWS 2018</title>
+
+    <link rel="manifest" href="../manifest.json">
+
+    <link rel="icon" type="iamge/icon" href="../assets/fav.png">
+    <link rel="stylesheet" type="text/css" href="../assets/stylefetch.css">
+
+    <!-- mapbox -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+
+</head>
+<body>
+
+
+<main>
+<div id="container">    
+    <div class="header"><a href="../index.html" id="back">< home</a> <div id="judul-page">Fetch Json</div></div>
+
+    <!-- menampikan peta -->
+    <div class="map" id="map"></div>
+    <div class="image" id="image"></div>
+    <div class="review" id="review"></div>
+    
+</div>
+
+      <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin="">
+   </script>
+
+    <script src="fetchjson.js"></script>
+
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+  
+</main>
+
+</body>
+</html>

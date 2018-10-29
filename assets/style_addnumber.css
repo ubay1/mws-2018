@@ -1,0 +1,44 @@
+
+@media(min-width:992px){
+	body{background:#EFEFEF; margin:0px;}
+	.header{background:#68A2C7; box-shadow:0px 1px 3px #3F3C3C; padding:10px; color:#fff; font-size:30px; text-shadow:0px 1px 3px #3F3C3C; display:flex; justify-content:space-around;}
+	#judul-page{ text-align:center;}
+	#back{text-decoration:none; color:#fff; text-align:left;}
+	#center{text-align:center;  margin:auto; margin-bottom:5%; text-align:left;}
+	#bg-form{width:50%; margin:20px auto; background:#FAF9F9; box-shadow:0px 3px 3px #CEC9C9; border:unset; padding:30px;}
+	h2{padding:0; text-align:center;}
+	#backmenu{background:rgba(241,112,129,1); text-decoration:none; color:#fff; padding:10px; border-radius:20px; box-shadow:0px 3px 3px #CEC9C9;}
+	.inputtxt{border-radius:0px; box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; padding-top:10px; padding-bottom:10px;}
+	.inputtxt2{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:auto; width:100%; padding:10px;}
+	.inputtxt3{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; background:#F18989;}
+}
+
+@media(min-width:768px) and (max-width: 991px){
+	body{background:#EFEFEF; margin:0px;}
+	.header{background:#68A2C7; box-shadow:0px 1px 3px #3F3C3C; padding:10px; color:#fff; font-size:30px; text-shadow:0px 1px 3px #3F3C3C; display:flex; justify-content:space-around;}
+	#judul-page{ text-align:center;}
+	#back{text-decoration:none; color:#fff; text-align:left;}
+	#center{text-align:center;  margin:auto; margin-bottom:5%; text-align:left;}
+	#bg-form{width:50%; margin:20px auto; background:#FAF9F9; box-shadow:0px 3px 3px #CEC9C9; border:unset; padding:30px;}
+	h2{padding:0; text-align:center;}
+	#backmenu{background:rgba(241,112,129,1); text-decoration:none; color:#fff; padding:10px; border-radius:20px; box-shadow:0px 3px 3px #CEC9C9;}
+	.inputtxt{border-radius:0px; box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; padding-top:10px; padding-bottom:10px;}
+	.inputtxt2{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:auto; width:100%; padding:10px;}
+	.inputtxt3{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; background:#F18989;}
+
+}
+
+
+@media(max-width: 767px){
+	body{background:#EFEFEF; margin:0px;}
+	.header{background:#68A2C7; box-shadow:0px 1px 3px #3F3C3C; padding:10px; color:#fff; font-size:30px; text-shadow:0px 1px 3px #3F3C3C; display:flex; justify-content:space-around;}
+	#judul-page{ text-align:center;}
+	#back{text-decoration:none; color:#fff; text-align:left;}
+	#center{text-align:center;  margin:auto; margin-bottom:5%; text-align:left;}
+	#bg-form{width:70%; margin:20px auto; background:#FAF9F9; box-shadow:0px 3px 3px #CEC9C9; border:unset; padding:30px;}
+	h2{padding:0; text-align:center;}
+	#backmenu{background:rgba(241,112,129,1); text-decoration:none; color:#fff; padding:10px; border-radius:20px; box-shadow:0px 3px 3px #CEC9C9;}
+	.inputtxt{border-radius:0px; box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; padding-top:10px; padding-bottom:10px;}
+	.inputtxt2{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:auto; width:100%; padding:10px;}
+	.inputtxt3{ box-shadow:0px 2px 3px #DBDADA; border:unset; height:30px; width:100%; background:#F18989;}
+}

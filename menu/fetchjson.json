@@ -1,0 +1,28 @@
+{
+  "places" : [
+    {
+      "location": [53.4831381,-2.202584],
+      "title"   : "Man.City",
+      "image"   :"../images/city.jpg",
+      "review"  : "<p> Manchester City Football Club (dikenal pula sebagai Man City atau The Citizens) adalah sebuah klub sepak bola profesional dari Inggris yang bermain di Liga Premier Inggris. Klub ini merupakaan klub sekota dengan Manchester United dan bermarkas di Stadion Etihad, Manchester.</p>"
+    },
+    {
+      "location": [53.4616592,-2.2804618],
+      "title"   : "Man.United",
+      "image"   :"../images/mu.jpg",
+      "review"  : "<p>Manchester United Football Club adalah sebuah klub sepak bola profesional Inggris yang berbasis di Old Trafford, Manchester Raya, yang bermain di Liga Inggris. Didirikan sebagai Newton Heath LYR Football Club pada tahun 1878, klub ini berganti nama menjadi Manchester United pada 1902 dan pindah ke Old Trafford pada tahun 1910.</p>"
+    },
+    {
+      "location": [51.4814796,-0.1937239],
+      "title"   : "Chelsea",
+      "image"   :"../images/chelsea.jpg",
+      "review"  : "<p>Chelsea Football Club  adalah sebuah klub sepak bola Inggris yang bermarkas di Fulham, London. Chelsea didirikan pada tahun 1905 dan kini berkompetisi di Liga Utama Inggris. Kesuksesan pertama Chelsea diraih saat meraih gelar juara liga pada tahun 1955. Beberapa gelar dari berbagai kompetisi juga berhasil diraih pada dekade 1960an, 1970an, 1990an, dan 2000an. Sepanjang sejarah penampilan dalam dunia sepak bola di Inggris dan Eropa, Chelsea telah meraih enam gelar juara Liga Utama Inggris, tujuh Piala FA, lima Piala Liga, satu trofi Liga Champions UEFA, dua Piala Winners UEFA, satu Liga Eropa UEFA dan satu Piala Super UEFA. </p>"
+    },
+    {
+      "location": [53.4308294,-2.9630187],
+      "title"   : "liverpool",
+      "image"   :"../images/liverpool.jpg",
+      "review"  : "<p>Liverpool didirikan pada tahun 1892 dan bergabung dengan Football League pada tahun berikutnya. Klub ini telah bermain di Stadion Anfield sejak pembentukannya yang terletak sekitar 4,8 km dari pusat kota Liverpool.Periode paling sukses dalam sejarah Liverpool adalah pada tahun 1970-an dan 1980-an ketika Bill Shankly dan Bob Paisley memimpin klub dengan sebelas gelar liga dan tujuh piala Eropa.</p>"
+    }
+  ]
+}

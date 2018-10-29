@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>	Mapbox</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#FEFEFE">
+	<title>MWS 2018</title>
+
+	<link rel="manifest" href="../manifest.json">
+
+	<link rel="icon" type="iamge/icon" href="../assets/fav.png">
+	<link rel="stylesheet" type="text/css" href="../assets/style_mapbox.css">
+
+	<!-- mapbox -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+
+	<!-- mapbox -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+	   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	   crossorigin=""/>
+
+	 
+</head>
+
+<body>
+
+<main>
+<!-- end mapbox -->
+<div id="container">
+	<div class="header">
+		<a href="../index.html" id="back">< home</a> <span class="clear"></span> 
+		<div id="judul-page">Mapbox</div></div>
+	<div id="mapid"> </div>
+
+	<div id="img-page">
+		<img src="../assets/home.jpg" id="img">
+	</div>
+		<div id="rev-page">
+			<div id="panjangteks-rev">
+			Komando Pembina Doktrin, Pendidikan dan Latihan Tentara Nasional Indonesia atau (Kodiklat TNI) adalah Badan Pelaksana Pusat Tentara Nasional Indonesia yang memiliki fungsi dan tugas untuk menyelenggarakan pembinaan doktrin, pendidikan pertama integratif dan pendidikan pengembangan spesialisasi serta latihan gabungan, latihan bersama dan latihan kesiapsiagaan operasional yang diselenggarakan oleh Mabes TNI dan Kotama jajaran TNI.
+			Markas Komando Kodiklat TNI berada di Kp.Buaran, Serpong, Kota Tangerang Selatan, Provinsi Banten  <br><br>
+			letak koordinat : -6.3348997,106.6924565 <br>
+			</div>
+		</div>
+</div>
+</main>	
+
+	<script type="text/javascript">
+		var mymap = L.map('mapid').setView([-6.3415273, 106.6924994], 13);
+		var marker = L.marker([-6.3415273, 106.6924994]).addTo(mymap);
+		marker.bindPopup("Jl.Kdiklat TNI, buaran, serpong.");
+		
+		var circle = L.circle([-6.3415273, 106.6924994], {
+		    color: 'red',
+		    fillColor: '#f03',
+		    fillOpacity: 0.5,
+		    radius: 500
+		}).addTo(mymap);
+
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoidWJheWRpbGxhaCIsImEiOiJjam1hZHl1ZWYwOWc4M3FyMThjbXFleGFjIn0.XT1hFkD7dd3qr_HOXV3P8A'
+	}).addTo(mymap);
+	</script>
+
+
+	  <!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+	   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+	   crossorigin=""></script>
+
+		<!-- ajax -->
+		<!-- <script type="text/javascript">
+			$(document).ready(function() {
+				$("#backmenu").click(function(){
+					$('#ambil-menu-ajax').load('menu/menuall.html');
+				});
+			});
+		</script> -->
+
+</body>
+</html>
